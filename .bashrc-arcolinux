@@ -256,4 +256,6 @@ export LESS_TERMCAP_us=$'\e[1;4;31m'
 alias btop='bpytop'          # bpytop system monitor
 
 ### mpv Music ###
-alias music='mpv --shuffle ~/Music'
+#alias music='mpv --shuffle --no-audio-display ~/Music'
+alias music='ncmpcpp'
+alias killmusic='ncmpcpp --kill'
