@@ -114,7 +114,7 @@ alias free='free -m'                      # show sizes in MB
 alias np='nano -w PKGBUILD'
 alias more=less
 
-alias ll='ls -alF'
+alias ll='ls -alhF'
 alias la='ls -a'
 alias l='ls -CF'
 alias l.="ls -A | egrep '^\.'"
