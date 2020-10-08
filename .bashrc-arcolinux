@@ -130,6 +130,9 @@ alias upate='sudo pacman -Syyu'
 #readable output
 alias df='df -h'
 
+#trim ssd
+alias trim='sudo fstrim / -v'
+
 #pacman unlock
 alias unlock="sudo rm /var/lib/pacman/db.lck"
 alias rmpacmanlock="sudo rm /var/lib/pacman/db.lck"
