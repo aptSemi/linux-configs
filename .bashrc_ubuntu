@@ -125,6 +125,7 @@ alias userlist="cut -d: -f1 /etc/passwd"
 
 #Aliases for Software Management
 alias update='sudo apt update'
+alias upgradeable='apt list --upgradeable'
 alias upgradeall='sudo apt dist-upgrade'
 
 #Cleanup orphaned packages
