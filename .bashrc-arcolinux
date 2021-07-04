@@ -244,6 +244,9 @@ alias probe="sudo -E hw-probe -all -upload"
 alias ssn="sudo shutdown now"
 alias sr="sudo reboot"
 
+#terminal Rick Roll
+alias rr='curl -L https://raw.githubusercontent.com/keroserene/rickrollrc/master/roll.sh | bash'
+
 
 xhost +local:root > /dev/null 2>&1
 
