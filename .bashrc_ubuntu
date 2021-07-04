@@ -146,6 +146,9 @@ alias microcode='grep . /sys/devices/system/cpu/vulnerabilities/*'
 alias ssn="sudo shutdown now"
 alias sr="sudo reboot"
 
+#terminal Rick Roll
+alias rr='curl -L https://raw.githubusercontent.com/keroserene/rickrollrc/master/roll.sh | bash'
+
 #youtube-dl
 alias yta-aac="youtube-dl --extract-audio --audio-format aac "
 alias yta-best="youtube-dl --extract-audio --audio-format best "
